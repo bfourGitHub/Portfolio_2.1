@@ -1,11 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a54c5e8016.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Bryan Moreno</title>
 </head>
+
 <body>
-    <h1>Hello World</h1>
+
+    <nav class="sticky-top">
+
+        <div class="container nav-container">
+
+            <div class="sectionLinks col">
+
+                <div class="pageLinks">
+                    <a href="#aboutMe">about.</a>
+                    <a href="#featuredProjects">featured.</a>
+                    <a href="#featuredProjects">portfolio.</a>
+                </div>
+                <!-- <div class="externalLinks">
+
+                        <a href="https://linkedin.com/in/bryan-moreno-360877128" class="fab fa-linkedin"
+                            alt="LinkedIn Profile"></a>
+                        <a href="https://drive.google.com/file/d/12-DtfiCD9neXaYTvRGocvRiiZqTtc2_0/view?usp=sharing"
+                            class="fas fa-portrait" alt="Resume PDF"></a>
+                        <a href="https://github.com/bfourGitHub" class="fab fa-github-square" alt="GitHub Profile"></a>
+                    </div> -->
+
+            </div>
+
+        </div>
+    </nav>
+    <br>
+    <img src="./assets/heroSelfie.png" class="img-fluid col-12" alt="...">
+
+
+    <div class="cardCluster" id="aboutMe">
+
+        <div class="card col-9" style="min-width: 25rem; margin: 10px; margin-bottom: 15px;">
+            <div class="card-body">
+                <h5 class="card-title">bryan moreno</h5>
+                <h6 class="card-subtitle mb-2 text-muted">full stack developer</h6>
+                <p class="card-text">Student. UW Coding Bootcamp 2021. Bartender with a love of coding & all things
+                    tech.</p>
+                <a href="https://linkedin.com/in/bryan-moreno-360877128" class="card-link fab fa-linkedin"
+                    alt="LinkedIn Profile"></a>
+                <a href="https://drive.google.com/file/d/12-DtfiCD9neXaYTvRGocvRiiZqTtc2_0/view?usp=sharing"
+                    class="card-link fas fa-portrait" alt="Resume PDF"></a>
+                <a href="https://github.com/bfourGitHub" class="card-link fab fa-github-square"
+                    alt="GitHub Profile"></a>
+
+            </div>
+        </div>
+
+        <div class="card" id="featuredProjects" style="max-width: 25rem; max-height: 25rem; margin: 10px;">
+            <div class="card-body">
+                <img src="./assets/adventue.jpg" class="card-img-top" alt="...">
+                <h5 class="card-title">Trail Chasers</h5>
+                <p class="card-text">Your new hiking buddy! An easy to use application that helps you find your next
+                    hike.</p>
+            </div>
+
+            <div class="card-body">
+                <a href="https://github.com/TaaniBravo/Trail-Chaser-Hiking-App" class="card-link fab fa-github"></a>
+                <a href="https://taanibravo.github.io/Trail-Chaser-Hiking-App/"
+                    class="card-link fas fa-external-link-alt"></a>
+            </div>
+        </div>
+
+        <div class="card" style="max-width: 25rem; max-height: 25rem; margin: 10px;">
+            <div class="card-body">
+                <img src="./assets/FoodDadABase SS.png" class="card-img-top" alt="...">
+                <h5 class="card-title">Food Dad-A-Base</h5>
+                <p class="card-text">Easy to use app to test your cooking skills {no studying required} while also
+                    having a laugh!</p>
+            </div>
+
+            <div class="card-body">
+                <a href="https://github.com/goantonioUW/food-dadabase" class="card-link fab fa-github"></a>
+                <a href="https://food-dad-a-base.herokuapp.com/login" class="card-link fas fa-external-link-alt"></a>
+            </div>
+        </div>
+
+        <div class="card" style="max-width: 25rem; max-height: 25rem; margin: 10px;">
+            <div class="card-body">
+                <img src="./assets/macbook-2617705_1920.jpg" class="card-img-top" alt="...">
+                <h5 class="card-title">ReadME Generator</h5>
+                <p class="card-text">A user friendly CLI that creates a readME.md file.</p>
+            </div>
+
+            <div class="card-body">
+                <a href="https://github.com/bfourGitHub/Easy-Readme-Generator" class="card-link fab fa-github"></a>
+                <!-- <a href="#" class="card-link fas fa-external-link-alt"></a> -->
+            </div>
+        </div>
+
+        <div class="card" style="max-width: 25rem; max-height: 25rem; margin: 10px;">
+            <div class="card-body">
+                <img src="./assets/coding-924920_1920.jpg" class="card-img-top" alt="...">
+                <h5 class="card-title">Team Generator CLI</h5>
+                <p class="card-text">A simple CLI to create & manage your team.</p>
+            </div>
+
+            <div class="card-body">
+                <a href="https://github.com/bfourGitHub/10-HW-Template-Engine-Employee-Summary"
+                    class="card-link fab fa-github"></a>
+                <!-- <a href="#" class="card-link fas fa-external-link-alt"></a> -->
+            </div>
+        </div>
+
+        <div class="card" style="max-width: 25rem; max-height: 25rem; margin: 10px;">
+            <div class="card-body">
+                <img src="./assets/friendship-2366955_1920.jpg" class="card-img-top" alt="...">
+                <h5 class="card-title">Future Project</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+            </div>
+
+            <div class="card-body">
+                <a href="#" class="card-link fab fa-github"></a>
+                <a href="#" class="card-link fas fa-external-link-alt"></a>
+            </div>
+        </div>
+
+        <div class="card" style="max-width: 25rem; max-height: 25rem; margin: 10px;">
+            <div class="card-body">
+                <img src="./assets/typewriter.jpg" class="card-img-top" alt="...">
+                <h5 class="card-title">Andy Meets the Neighbors</h5>
+                <p class="card-text">A short story about an unassuming old building, its eccentric residents & the new
+                    guy in #304.</p>
+            </div>
+
+            <div class="card-body">
+
+                <a href="" class="card-link fas fa-external-link-alt"> Coming Soon...</a>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
